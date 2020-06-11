@@ -28,8 +28,8 @@ resource "kubernetes_deployment" "eiko" {
             container_port = 80
           }
           env {
-              name  = "PORT"
-              value = "80"
+            name  = "PORT"
+            value = "80"
           }
           resources {
             limits {

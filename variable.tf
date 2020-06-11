@@ -1,43 +1,43 @@
 variable "project" {
-    default = "poetic-hexagon-252009"
+  default = "poetic-hexagon-252009"
 }
 
 variable "region" {
-    default = "europe-west"
+  default = "europe-west"
 }
 
 variable "cluster_name" {
-    default = "eikos-cluster"
+  default = "eikos-cluster"
 }
 
 variable "cluster_location" {
-    default = "europe-west1-b"
+  default = "europe-west1-b"
 }
 
 variable "cluster_k8s_version" {
-    default = "1.13.7-gke.24"
+  default = "1.13.7-gke.24"
 }
 
 variable "initial_node_count" {
-    default = 2
+  default = 2
 }
 
 variable "autoscaling_min_node_count" {
-    default = 1
+  default = 1
 }
 
 variable "autoscaling_max_node_count" {
-    default = 2
+  default = 2
 }
 
 variable "disk_size_gb" {
-    default = 50
+  default = 50
 }
 
 variable "disk_type" {
-    default = "pd-standard"
+  default = "pd-standard"
 }
 
 variable "machine_type" {
-    default = "n1-standard-1"
+  default = "n1-standard-1"
 }
